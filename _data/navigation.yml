@@ -1,0 +1,11 @@
+# main links
+main:
+  - title: "About"
+    url: /
+  - title: "Blog"
+    url: /blog/index/
+  - title: "Paper"
+    url: /paper/index/
+  # - title: "External Link"
+  #   url: https://google.com
+  #   target: _blank
