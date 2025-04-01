@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "My Blog"
-permalink: /blog/index/
+permalink: /blog/index
 # 页头图片
 header:
   image: /assets/images/background.jpg  # 头部背景图片

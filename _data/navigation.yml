@@ -3,11 +3,11 @@ main:
   - title: "Home"
     url: /
   - title: "About"
-    url: /about/index/
+    url: /about/index
   - title: "Blog"
-    url: /blog/index/
+    url: /blog/index
   - title: "Paper"
-    url: /paper/index/
+    url: /paper/index
   # - title: "External Link"
   #   url: https://google.com
   #   target: _blank

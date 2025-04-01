@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: true  # author
+permalink: /about/index
 title: "About"
 # header:
 #   overlay_image: /assets/images/wallpaper.jpg  # 头部背景图片

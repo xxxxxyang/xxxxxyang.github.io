@@ -16,10 +16,10 @@ blog_button:
 nav:
   - blog: 
     title: Blog
-    url: /blog/index/
+    url: /blog/index
   - paper: 
     title: Paper
-    url: /paper/index/
+    url: /paper/index
 # 背景颜色
 cover_color: grey
 # social media

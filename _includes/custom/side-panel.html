@@ -4,8 +4,8 @@
       <div class="panel-main__inner panel-inverted">
       <div class="panel-main__content">
   
-          <a href="/about/index/" title="前往 {{ page.author }} 的主页" class="blog-button"><img src="{{ page.header.avatar | default: '/assets/images/avata2.jpg' }}" width="150" height="120" alt="{{ page.title }} logo" class="panel-cover__logo logo" /></a>
-          <h1 class="panel-cover__title panel-title"><a href="/about/index/" title="link to homepage for {{ page.author }}" class="blog-button">{{ page.author }}</a></h1>
+          <a href="/about/index" title="前往 {{ page.author }} 的主页" class="blog-button"><img src="{{ page.header.avatar | default: '/assets/images/avata2.jpg' }}" width="150" height="120" alt="{{ page.title }} logo" class="panel-cover__logo logo" /></a>
+          <h1 class="panel-cover__title panel-title"><a href="/about/index" title="link to homepage for {{ page.author }}" class="blog-button">{{ page.author }}</a></h1>
           {% if page.subtitle %}
           <span class="panel-cover__subtitle panel-subtitle">{{page.subtitle}}</span>
           {% endif %}
@@ -21,7 +21,7 @@
             <div>
               <nav class="cover-navigation cover-navigation--primary">
                 <ul class="navigation">
-                  <li class="navigation__item"><a href="/about/index/" title="{{page.blog_button.description}}" class="blog-button">{{page.blog_button.title}}</a></li>
+                  <li class="navigation__item"><a href="/about/index" title="{{page.blog_button.description}}" class="blog-button">{{page.blog_button.title}}</a></li>
                   {% for item in page.nav %}
                     <li class="navigation__item"><a href="{{item.url}}" target="_self" title="{{item.description}}">{{item.title}}</a></li>
                   {% endfor %}
