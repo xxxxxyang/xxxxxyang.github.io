@@ -3,8 +3,8 @@ layout: custom
 author: "xyang"
 title: "Welcome"
 subtitle: 
-description: 
-welcome_message: "Welcome to my personal website"
+description: "Welcome to my personal website"
+# welcome_message: "Learn More About Me Here!"
 header:
   back-image: /assets/images/nature.jpg  # 背景图片
   avatar: /assets/images/avata2.jpg # 头像
