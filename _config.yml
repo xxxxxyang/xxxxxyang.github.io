@@ -116,13 +116,13 @@ analytics:
 author:
   name             : "杨家和"
   avatar           : "/assets/images/avata2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "青春科研苦手会梦到电子羊吗?"
+  bio              : "青春科研苦手不会梦到电子羊...mer?"
   # location         : "AnHui HeFei"
   # email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "xyang@mail.ustc.edu.cn"
+      url: "mailto:xyang@mail.ustc.edu.cn"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
@@ -335,6 +335,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      # comments: true
-      # share: true
+      comments: false
+      toc: true
+      toc_label: "My Table of Contents"
+      toc_icon: "cog"
+      share: false
       # related: true

@@ -1,0 +1,63 @@
+<nav class="cover-navigation navigation--social">
+    <ul class="navigation">
+  
+    {% if page.social.weibo %}
+    <!-- Weibo -->
+    <li class="navigation__item">
+      <a href="http://weibo.com/{{page.social.weibo}}" title="@{{page.social.weibo}} 的微博" target="_blank">
+        <i class='social fa fa-weibo'></i>
+        <span class="label">Weibo</span>
+      </a>
+    </li>
+    {% endif %}
+  
+    {% if page.social.github %}
+    <!-- Github -->
+    <li class="navigation__item">
+      <a href="https://github.com/{{page.social.github}}" title="@{{page.social.github}} 的 Github" target="_blank">
+        <i class='social fa fa-github'></i>
+        <span class="label">Github</span>
+      </a>
+    </li>
+    {% endif %}
+    
+    {% if page.social.twitter %}
+    <!-- Twitter -->
+    <li class="navigation__item">
+      <a href="http://twitter.com/{{page.social.twitter}}" title="@{{page.social.twitter}}" target="_blank">
+        <i class='social fa fa-twitter'></i>
+        <span class="label">Twitter</span>
+      </a>
+    </li>
+    {% endif %}
+  
+    {% if page.social.gplus %}
+    <!-- Google Plus -->
+    <li class="navigation__item">
+      <a href="https://plus.google.com/{{page.social.gplus}}" rel="author" title="Google+" target="_blank">
+        <i class='social fa fa-google-plus-square'></i>
+        <span class="label">Google Plus</span>
+      </a>
+    </li>
+    {% endif %}
+  
+    <!-- RSS -->
+    <li class="navigation__item">
+      <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+        <i class='social fa fa-rss'></i>
+        <span class="label">RSS</span>
+      </a>
+    </li>
+  
+    {% if page.social.mail %}
+    <!-- Email -->
+    <li class="navigation__item">
+      <a href="mailto:{{page.social.mail}}" title="Contact me">
+        <i class='social fa fa-envelope'></i>
+        <span class="label">Email</span>
+      </a>
+    </li>
+    {% endif %}
+  
+    </ul>
+  </nav>

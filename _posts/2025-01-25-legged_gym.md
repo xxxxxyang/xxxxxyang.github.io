@@ -1,8 +1,8 @@
 ---
 permalink: /blog/legged_gym/
-
+share: false
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 

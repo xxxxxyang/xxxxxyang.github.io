@@ -9,7 +9,7 @@ header:
   caption: "Photo by [Unsplash](https://unsplash.com)"
 # 添加右侧目录
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Blogs"
 toc_icon: "cog"
 
 author_profile: true

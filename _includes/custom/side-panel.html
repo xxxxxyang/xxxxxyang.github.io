@@ -1,0 +1,43 @@
+<header class="panel-cover {% if page.layout == 'post' or page.layout == 'page' %}panel-cover--collapsed{% endif %}" style="background-image: url('{{ page.header.back-image | default: "/assets/images/background-image.jpg" }}')">
+    <div class="panel-main">
+  
+      <div class="panel-main__inner panel-inverted">
+      <div class="panel-main__content">
+  
+          <a href="/about/index" title="前往 {{ page.author }} 的主页" class="blog-button"><img src="{{ page.header.avatar | default: '/assets/images/avata2.jpg' }}" width="150" height="120" alt="{{ page.title }} logo" class="panel-cover__logo logo" /></a>
+          <h1 class="panel-cover__title panel-title"><a href="/about/index" title="link to homepage for {{ page.author }}" class="blog-button">{{ page.author }}</a></h1>
+          {% if page.subtitle %}
+          <span class="panel-cover__subtitle panel-subtitle">{{page.subtitle}}</span>
+          {% endif %}
+          <hr class="panel-cover__divider" />
+          <p class="panel-cover__description">{{ page.description }}</p>
+          <hr class="panel-cover__divider panel-cover__divider--secondary" />
+          
+          {% if page.welcome_message %}
+          <p class="panel-cover__description">{{ page.welcome_message }}</p>
+          {% endif %}
+          
+          <div class="navigation-wrapper">
+            <div>
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item"><a href="/about/index" title="{{page.blog_button.description}}" class="blog-button">{{page.blog_button.title}}</a></li>
+                  {% for item in page.nav %}
+                    <li class="navigation__item"><a href="{{item.url}}" target="_self" title="{{item.description}}">{{item.title}}</a></li>
+                  {% endfor %}
+                </ul>
+              </nav>
+            </div>
+            
+            <div>{% include custom/social.html %}</div>
+          </div>
+        </div>
+      </div>
+      
+      {% if page.cover_color %}
+      <div class="panel-cover--overlay cover-{{page.cover_color}}"></div>
+      {% else %}
+      <div class="panel-cover--overlay cover-disabled"></div>
+      {% endif %}
+    </div>
+  </header>
