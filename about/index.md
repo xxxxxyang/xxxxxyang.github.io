@@ -14,7 +14,7 @@ title: "About"
 
 Here is **JiaHe Yang (杨家和)**.
 
-I am an undergraduate student at the University of Science and Technology of China, majored in Computer Science. 
+I am an undergraduate student at the University of Science and Technology of China, majoring in Computer Science. 
 
 # Research Interests
 
