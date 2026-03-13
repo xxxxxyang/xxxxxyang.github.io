@@ -15,6 +15,10 @@
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-installer | bash 
 # 安装 rbenv 脚本会自动将 export PATH="$HOME/.rbenv/bin:$PATH" 和 eval "$(rbenv init -)" 添加到 ~/.bashrc 或 ~/.zshrc 中
 source ~/.bashrc  # 或者 source ~/.zshrc
+# 安装系统依赖
+sudo apt update
+sudo apt install -y build-essential libssl-dev zlib1g-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev
+# Ruby
 rbenv install 3.2.2
 rbenv global 3.2.2
 ruby -v  # 确认 ruby 版本
